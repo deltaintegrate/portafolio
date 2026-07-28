@@ -184,75 +184,162 @@
     </ol>
   </section>
   <!--experience section-->
-  <section class="p-8 ml-6 flex justify-center " id="projects">
+  <section class="p-8 ml-6 flex justify-center " id="experience">
     <div class="text-white font-extrabold text-3xl font-mono italic p-4 m-2">My Work Experience's <br> Timeline</div>
     <ol class="relative border-l border-gray-200 dark:border-gray-700">
+      <!-- NEW: Most recent experience -->
       <li class="mb-10 ml-4">
         <div
-          class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700">
+          class="absolute w-3 h-3 bg-sky-400 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900">
         </div>
-        <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">August 2023 - february 2024
+        <time class="mb-1 text-sm font-normal leading-none text-sky-400 dark:text-sky-400">February 2024 - Present
         </time>
-        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Desarrollador Back-End, Fletx Colombia , Bogota D.C Colombia</h3>
-        <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Development, implementation, and creation of microservices in Nest.js</p>
-        <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Creation of bearer token authentication services with MFA using JWT and passport on AWS Cognito. <br> frontend apis
-        </p>
-        <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Integration within the organization and consumption of third-party API services (UberFreight and others)</p>
-        <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Management of services like Mailgun, AWS S3, System Manager, and cluster.</p>
+        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Backend / Platform Engineer — Certified Email &amp; Digital Signature, Gestión de Seguridad Electrónica, Colombia</h3>
+        <p class="mb-2 text-base font-normal text-gray-500 dark:text-gray-400">Design, development, and maintenance of a Node.js microservices platform for certified email and digital signature, including integrations with Colombian government entities (JEP, FNA, Afinia).</p>
+        <ul class="mb-4 list-disc list-inside text-base font-normal text-gray-500 dark:text-gray-400 space-y-1">
+          <li>Built and maintained Node.js microservices (Express + MongoDB) composing the certified-email platform.</li>
+          <li>Orchestrated the end-to-end certified email pipeline: public API → JWT authentication → template rendering → cryptographic stamping/signature → audit trail → pending-mail queue.</li>
+          <li>Created and maintained TypeScript microservices using Domain-Driven Design (DDD) layering (application / domain / infrastructure) with Inversify for dependency injection.</li>
+          <li>Managed containerized deployments via Docker and docker-compose, including shared infrastructure (MongoDB replica set, Redis, HAProxy).</li>
+          <li>Standardized the monorepo on pnpm workspaces and modernized legacy build/configuration practices.</li>
+          <li>Reduced judicial notification delivery times by ~80% compared to traditional physical mail processes, serving high-compliance clients such as the Special Jurisdiction for Peace (JEP) and National Savings Fund (FNA).</li>
+          <li>Wrote and maintained Mocha test suites per service, enforcing automated verification and code quality.</li>
+        </ul>
+        <div class="flex flex-wrap gap-2">
+          <span class="px-2 py-1 text-xs font-medium bg-sky-900 text-sky-300 rounded">Node.js</span>
+          <span class="px-2 py-1 text-xs font-medium bg-sky-900 text-sky-300 rounded">TypeScript</span>
+          <span class="px-2 py-1 text-xs font-medium bg-sky-900 text-sky-300 rounded">Express</span>
+          <span class="px-2 py-1 text-xs font-medium bg-sky-900 text-sky-300 rounded">DDD</span>
+          <span class="px-2 py-1 text-xs font-medium bg-sky-900 text-sky-300 rounded">Inversify</span>
+          <span class="px-2 py-1 text-xs font-medium bg-sky-900 text-sky-300 rounded">MongoDB</span>
+          <span class="px-2 py-1 text-xs font-medium bg-sky-900 text-sky-300 rounded">Redis</span>
+          <span class="px-2 py-1 text-xs font-medium bg-sky-900 text-sky-300 rounded">Docker</span>
+          <span class="px-2 py-1 text-xs font-medium bg-sky-900 text-sky-300 rounded">HAProxy</span>
+          <span class="px-2 py-1 text-xs font-medium bg-sky-900 text-sky-300 rounded">JWT</span>
+          <span class="px-2 py-1 text-xs font-medium bg-sky-900 text-sky-300 rounded">pnpm</span>
+          <span class="px-2 py-1 text-xs font-medium bg-sky-900 text-sky-300 rounded">Mocha</span>
+        </div>
       </li>
       <li class="mb-10 ml-4">
         <div
           class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700">
         </div>
-        <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">june 2023 - july 2024
+        <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">August 2023 - February 2024
         </time>
-        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Desarrollador Back-End, Freelancer, Inlaze , Pereire Colombia</h3>
-        <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Develop modules, components, and services in Nest.js with PostgreSQL as the database</p>
-        <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Manage and create database models in PostgreSQL and formalize them according <br> to technical requirements.
-        </p>
-        <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Update the execution of end-to-end testing in the final cycle of application <br> flow requirements and its behavior in the organizational CI/CD.</p>
+        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Backend Developer — FletX Colombia, Bogotá D.C., Colombia</h3>
+        <p class="mb-2 text-base font-normal text-gray-500 dark:text-gray-400">Development, implementation, and architecture of NestJS microservices for national and international freight transportation management and automation.</p>
+        <ul class="mb-4 list-disc list-inside text-base font-normal text-gray-500 dark:text-gray-400 space-y-1">
+          <li>Built and deployed NestJS microservices for cargo logistics, automating freight tracking and fleet management workflows.</li>
+          <li>Maintained and migrated relational databases in PostgreSQL, ensuring data integrity and schema evolution.</li>
+          <li>Implemented multi-factor authentication (MFA) with bearer token (JWT + Passport) via AWS Cognito.</li>
+          <li>Integrated third-party REST APIs including Uber Freight for logistics orchestration.</li>
+          <li>Managed cloud services: Mailgun (email), AWS S3 (storage), AWS Systems Manager (SSM), and containerized clusters (ECS/EKS).</li>
+        </ul>
+        <div class="flex flex-wrap gap-2">
+          <span class="px-2 py-1 text-xs font-medium bg-gray-700 text-gray-300 rounded">NestJS</span>
+          <span class="px-2 py-1 text-xs font-medium bg-gray-700 text-gray-300 rounded">PostgreSQL</span>
+          <span class="px-2 py-1 text-xs font-medium bg-gray-700 text-gray-300 rounded">AWS Cognito</span>
+          <span class="px-2 py-1 text-xs font-medium bg-gray-700 text-gray-300 rounded">JWT</span>
+          <span class="px-2 py-1 text-xs font-medium bg-gray-700 text-gray-300 rounded">MFA</span>
+          <span class="px-2 py-1 text-xs font-medium bg-gray-700 text-gray-300 rounded">AWS S3</span>
+          <span class="px-2 py-1 text-xs font-medium bg-gray-700 text-gray-300 rounded">Mailgun</span>
+        </div>
+      </li>
+      <li class="mb-10 ml-4">
+        <div
+          class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700">
+        </div>
+        <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">June 2023 - July 2024
+        </time>
+        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Backend Developer (Freelance) — Inlaze, Pereira, Colombia</h3>
+        <p class="mb-2 text-base font-normal text-gray-500 dark:text-gray-400">Full Stack and QA engineer across Fintech, payment processing, and iGaming (affiliate marketing for betting platforms) industries.</p>
+        <ul class="mb-4 list-disc list-inside text-base font-normal text-gray-500 dark:text-gray-400 space-y-1">
+          <li>Developed modules, components, and services in NestJS with PostgreSQL, covering affiliate tracking and campaign management for iGaming clients.</li>
+          <li>Built and integrated payment gateway features (PaymentsWay S.A.S) using Node.js and React, ensuring secure transactional processing.</li>
+          <li>Designed and maintained automated unit and integration test suites with Jest, Mocha, and Istanbul (NYC), achieving high code coverage and regression prevention.</li>
+          <li>Managed collaborative codebase workflows using Git and integrated RESTful APIs for third-party service consumption.</li>
+          <li>Executed end-to-end testing cycles aligned with CI/CD pipelines in the organizational workflow.</li>
+        </ul>
+        <div class="flex flex-wrap gap-2">
+          <span class="px-2 py-1 text-xs font-medium bg-gray-700 text-gray-300 rounded">NestJS</span>
+          <span class="px-2 py-1 text-xs font-medium bg-gray-700 text-gray-300 rounded">React</span>
+          <span class="px-2 py-1 text-xs font-medium bg-gray-700 text-gray-300 rounded">PostgreSQL</span>
+          <span class="px-2 py-1 text-xs font-medium bg-gray-700 text-gray-300 rounded">Jest</span>
+          <span class="px-2 py-1 text-xs font-medium bg-gray-700 text-gray-300 rounded">Mocha</span>
+          <span class="px-2 py-1 text-xs font-medium bg-gray-700 text-gray-300 rounded">Istanbul</span>
+          <span class="px-2 py-1 text-xs font-medium bg-gray-700 text-gray-300 rounded">Git</span>
+        </div>
       </li>
       <li class="mb-10 ml-4">
         <div
           class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700">
         </div>
         <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">September 2022 - March 2023</time>
-        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Desarrollador Back-End,  InfinitaConsulting - Ab-Inbev, Ciudad de México</h3>
-        <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Creation and maintenance the aws microservice enviroments</p>
-        <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">development aws cloud code solutions on typescript hexagonal architecture and domain driver design projects</p>
-        <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">development and deployment of monolithic and  microservices apps on continuous integration environments</p>
+        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Backend Developer — InfinitaConsulting / AB-InBev (TaDa Delivery), Ciudad de México</h3>
+        <p class="mb-2 text-base font-normal text-gray-500 dark:text-gray-400">Core software engineering for AB InBev's TaDa Delivery, the global Direct-to-Consumer (D2C) e-commerce platform, handling high-concurrency transactions across order management, catalog, real-time inventory, and checkout.</p>
+        <ul class="mb-4 list-disc list-inside text-base font-normal text-gray-500 dark:text-gray-400 space-y-1">
+          <li>Implemented scalable microservices using Domain-Driven Design (DDD) with TypeScript and dependency injection via InversifyJS.</li>
+          <li>Worked on high-traffic order orchestration, dynamic pricing/promotions engine, real-time inventory tracking, and payment gateway integrations.</li>
+          <li>Built event-driven service architectures maintaining 99.9% availability during peak demand periods (sports events, flash promotions).</li>
+          <li>Automated CI/CD deployment pipelines using Jenkins, achieving zero-downtime deployments and reducing time-to-market for critical releases.</li>
+          <li>Optimized core API response times by an estimated 35–45% through clean DDD architectural boundaries and effective caching strategies.</li>
+        </ul>
+        <div class="flex flex-wrap gap-2">
+          <span class="px-2 py-1 text-xs font-medium bg-gray-700 text-gray-300 rounded">TypeScript</span>
+          <span class="px-2 py-1 text-xs font-medium bg-gray-700 text-gray-300 rounded">Node.js</span>
+          <span class="px-2 py-1 text-xs font-medium bg-gray-700 text-gray-300 rounded">DDD</span>
+          <span class="px-2 py-1 text-xs font-medium bg-gray-700 text-gray-300 rounded">InversifyJS</span>
+          <span class="px-2 py-1 text-xs font-medium bg-gray-700 text-gray-300 rounded">Jenkins</span>
+          <span class="px-2 py-1 text-xs font-medium bg-gray-700 text-gray-300 rounded">Redis</span>
+          <span class="px-2 py-1 text-xs font-medium bg-gray-700 text-gray-300 rounded">AWS</span>
+        </div>
       </li>
       <li class="mb-10 ml-4">
         <div
           class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700">
         </div>
         <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">June 2022 - September 2022</time>
-        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Desarrollador Fullstack, Freelancer</h3>
-        <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Create CRM  frontend with reactjs and bootstrap framework.</p>
-        <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Create CRM backend design wih nodejs and deployments with AWS and relational database (POstgres)</p>
-
+        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Fullstack Developer — Freelancer</h3>
+        <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Built a CRM solution end-to-end: React + Bootstrap frontend and Node.js backend deployed on AWS with a relational PostgreSQL database.</p>
       </li>
       <li class="mb-10 ml-4">
         <div
           class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700">
         </div>
         <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">March 2021 - June 2022</time>
-        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Desarrollador Back-End, PaymentsWay, Bogota D.C Colombia</h3>
-        <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Creation of websites according to client demand in WordPress using Elementor or Divi, in addition to the <br> use of block tools, Gutenberg, Google and Facebook SEO, along with their integration with our external payment gateway APIs.</p>
-        <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Manage and coordinate projects of the organization 
-          and complete them in the established times</p>
-        <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Maintained timely communications with clients, TI 
-          teams and senior management of business partners on</p>
-        <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">develop and maintain Full Stack software in javascript technologies (React and Nodejs)</p>
+        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Fullstack Developer — PaymentsWay S.A.S, Bogotá D.C., Colombia</h3>
+        <p class="mb-2 text-base font-normal text-gray-500 dark:text-gray-400">Fullstack development for a Fintech payment gateway platform, building end-to-end features with Node.js and React.</p>
+        <ul class="mb-4 list-disc list-inside text-base font-normal text-gray-500 dark:text-gray-400 space-y-1">
+          <li>Developed and maintained Full Stack software using JavaScript (React frontend, Node.js backend) integrated with payment gateway APIs.</li>
+          <li>Managed and coordinated projects within established timelines, maintaining communication with clients and IT teams.</li>
+          <li>Built WordPress sites with Elementor/Divi and integrated Google/Facebook SEO and external payment APIs.</li>
+        </ul>
+        <div class="flex flex-wrap gap-2">
+          <span class="px-2 py-1 text-xs font-medium bg-gray-700 text-gray-300 rounded">Node.js</span>
+          <span class="px-2 py-1 text-xs font-medium bg-gray-700 text-gray-300 rounded">React</span>
+          <span class="px-2 py-1 text-xs font-medium bg-gray-700 text-gray-300 rounded">JavaScript</span>
+          <span class="px-2 py-1 text-xs font-medium bg-gray-700 text-gray-300 rounded">REST APIs</span>
+          <span class="px-2 py-1 text-xs font-medium bg-gray-700 text-gray-300 rounded">WordPress</span>
+        </div>
       </li>
       <li class="mb-10 ml-4">
         <div
           class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700">
         </div>
         <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">August 2020 - March 2021</time>
-        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Quality Assurance, Superpagos, Pereira Colombia</h3>
-        <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Perform optimization and development of the Unit testing environment, Ul test. </p>
-        <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Management and management of technical meetings with integration character </p>
+        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Quality Assurance Engineer — SuperPagos, Pereira, Colombia</h3>
+        <ul class="mb-4 list-disc list-inside text-base font-normal text-gray-500 dark:text-gray-400 space-y-1">
+          <li>Designed and executed unit and integration test suites using Jest, Mocha, and Istanbul (NYC), ensuring high code coverage across critical payment flows.</li>
+          <li>Led technical integration meetings, coordinating QA requirements between development and product teams.</li>
+          <li>Performed UI and end-to-end testing to validate application behavior against business requirements.</li>
+        </ul>
+        <div class="flex flex-wrap gap-2">
+          <span class="px-2 py-1 text-xs font-medium bg-gray-700 text-gray-300 rounded">Jest</span>
+          <span class="px-2 py-1 text-xs font-medium bg-gray-700 text-gray-300 rounded">Mocha</span>
+          <span class="px-2 py-1 text-xs font-medium bg-gray-700 text-gray-300 rounded">Istanbul</span>
+          <span class="px-2 py-1 text-xs font-medium bg-gray-700 text-gray-300 rounded">QA</span>
+          <span class="px-2 py-1 text-xs font-medium bg-gray-700 text-gray-300 rounded">E2E Testing</span>
+        </div>
       </li>
     </ol>
   </section>
@@ -309,12 +396,12 @@
           <p class="font-normal text-gray-700 dark:text-gray-400">As Employee</p>
           <div class="mt-1 w-full bg-gray-200 rounded-full dark:bg-gray-700">
             <div class="bg-stone-950 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded"
-              style="width: 100%"> 3 Years</div>
+              style="width: 100%"> 4+ Years</div>
           </div>
           <p class="font-normal text-gray-700 dark:text-gray-400">As Freelancer</p>
           <div class="mt-1 mb-11 w-full bg-gray-200 rounded-full dark:bg-gray-700">
             <div class="bg-stone-950  text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded"
-              style="width: 100%"> 1.5 years</div>
+              style="width: 100%"> 2 years</div>
           </div>
         </div>
       </div>
@@ -325,18 +412,15 @@
       <div class="p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ">
         <h5 class="m-2 flex justify-center text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Another
           tecnologies <br> </h5>
-        <div class="flex justify-center ">
-          <p class="m-2 font-normal text-gray-700 dark:text-gray-400">Nodejs <br> HTML <br> CSS <br> Git <br></p>
-          <p class="m-2 font-normal text-gray-700 dark:text-gray-400">nestjs <br> AWS <br> SQL <br> MongoDB <br></p>
-          <p class="m-2 font-normal text-gray-700 dark:text-gray-400">Express <br> Loopbackjs <br> Travis <br> Jest</p>
-          <p class="m-2 font-normal text-gray-700 dark:text-gray-400">Serverless <br> CloudWatch <br> Lambda <br> React
-          </p>
-          <p class="m-2 font-normal text-gray-700 dark:text-gray-400">Postgres <br> Cloudformation <br> e2e <br> Apis
-          </p>
-          <p class="m-2 font-normal text-gray-700 dark:text-gray-400">Wordpress <br> Seo <br> Elementor <br> Block
-          </p>
-          <p class="m-2 font-normal text-gray-700 dark:text-gray-400">Bootstrap <br> Java <br> Php <br> Gutenberg
-          </p>
+        <div class="flex justify-center flex-wrap">
+          <p class="m-2 font-normal text-gray-700 dark:text-gray-400">Node.js <br> TypeScript <br> JavaScript <br> Git <br></p>
+          <p class="m-2 font-normal text-gray-700 dark:text-gray-400">NestJS <br> Express <br> AWS <br> MongoDB <br></p>
+          <p class="m-2 font-normal text-gray-700 dark:text-gray-400">Docker <br> Redis <br> HAProxy <br> pnpm</p>
+          <p class="m-2 font-normal text-gray-700 dark:text-gray-400">DDD <br> InversifyJS <br> Microservices <br> React</p>
+          <p class="m-2 font-normal text-gray-700 dark:text-gray-400">PostgreSQL <br> SQL <br> JWT <br> MFA</p>
+          <p class="m-2 font-normal text-gray-700 dark:text-gray-400">Jest <br> Mocha <br> Istanbul <br> E2E</p>
+          <p class="m-2 font-normal text-gray-700 dark:text-gray-400">Jenkins <br> CI/CD <br> AWS Cognito <br> S3</p>
+          <p class="m-2 font-normal text-gray-700 dark:text-gray-400">HTML <br> CSS <br> Bootstrap <br> Java</p>
         </div>
       </div>
     </div>
